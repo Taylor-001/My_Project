@@ -1,0 +1,16 @@
+import requests API library
+define the function main()
+def main()
+    try block:
+	CityName = UserInput
+	URL = "API".format string(CityName)
+	HTTP request (res) = requests.get from the (url)
+	The url data = res.jsonfile
+	Desired data = url data auto parsed['']['']
+	print('Desired data'.format(['']['']))
+    except if UserInput is invalid:
+	print('Error Message')
+	Then call the main() function.
+	
+main() function
+	
